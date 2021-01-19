@@ -14,7 +14,7 @@ function createGrid(num){
     for(let i = 1; i <= (num * num); i++){
         const div = document.createElement('div');
         div.onmouseover = function(){
-            div.style.backgroundColor = 'red'
+            div.style.backgroundColor = changeColor()
         }
         container.appendChild(div).className = 'cell'
     };
@@ -41,3 +41,11 @@ function alterSize(){
     }
     // createGrid(newSize)
 }
+
+function changeColor(){
+    let r = Math.floor(Math.random() * 256)
+    let g = Math.floor(Math.random() * 256)
+    let b = Math.floor(Math.random() * 256)
+    return `rgb(${r}, ${g}, ${g})`
+}
+console.log(changeColor())

@@ -17,6 +17,13 @@ body{
 :root {
     --grid-nums: 1;
 }
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 10px;
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 1rem;
+}
 
 main{
     background-color: thistle;
@@ -26,12 +33,14 @@ main{
     flex-direction: column;
     justify-content: space-around;
     margin: 3rem auto;
-    padding: 2rem 3rem;
+    padding: 1rem 1rem;
 }
 button{
     border: none;
     background-color:rgb(102, 134, 230);
     padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 
