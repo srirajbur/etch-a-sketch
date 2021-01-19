@@ -11,16 +11,33 @@ html{
 body{
     font-size: 1.6rem;
     text-align: center;
+    background-color: tomato;
 }
 
 :root {
     --grid-nums: 1;
 }
-  
+
+main{
+    background-color: thistle;
+    border-radius: 1rem;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3rem auto;
+    padding: 2rem 3rem;
+}
+button{
+    border: none;
+    background-color:rgb(102, 134, 230);
+    padding: 1rem;
+}
+
 
 #container{
     padding: 2rem;
-    max-width: 500px;
+    min-width: 500px;
     min-height: 500px;
     margin: 0 auto;
     display: grid;
@@ -29,5 +46,6 @@ body{
 }
 
 .cell{
+    background-color: rgb(216, 216, 216);
     border: 1px black solid;
 }
