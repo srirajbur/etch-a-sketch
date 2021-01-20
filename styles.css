@@ -9,52 +9,19 @@ html{
 }
 
 body{
-    font-size: 1.6rem;
     text-align: center;
-    background-color: tomato;
-}
-
-:root {
-    --grid-nums: 1;
-}
-header{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    word-spacing: 10px;
-    font-size: 3rem;
-    margin: 0;
-    margin-top: 1rem;
 }
 
 main{
-    background-color: thistle;
-    border-radius: 1rem;
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 3rem auto;
-    padding: 1rem 1rem;
 }
-button{
-    border: none;
-    background-color:rgb(102, 134, 230);
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 0.5rem;
-}
-
 
 #container{
-    padding: 2rem;
-    min-width: 500px;
+    display: grid;
+    width: 500px;
     min-height: 500px;
     margin: 0 auto;
-    display: grid;
-    grid-template-rows: repeat(var(--grid-nums), 1fr);
-    grid-template-columns: repeat(var(--grid-nums), 1fr);
 }
 
 .cell{
-    background-color: rgb(216, 216, 216);
-    border: 1px black solid;
+    border: 1px solid grey;
 }
