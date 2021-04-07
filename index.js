@@ -39,7 +39,6 @@ function clearGrid(){
     })
 }
 
-//got this code from a Odin Student, really liked the color pattern.
 function changeColor(e){
     const psychedelicPallete = ['#EF476F', '#FFD166', '#06D6A0', '#118AB2', '#073B4C'];
     const randomColor = Math.floor(Math.random() * psychedelicPallete.length - 1 );
